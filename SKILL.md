@@ -1,8 +1,3 @@
----
-name: self-host-guide
-description: Generate a complete, formal, step-by-step self-hosting installation guide for any application, with a reverse proxy (Nginx, Caddy, or Traefik) chosen to fit the user's requirement. Use this whenever the user asks for a self-hosting guide, installation guide, deployment guide, Docker Compose setup, or "how to self host X" for any open-source or self-hostable application — whether or not they name a specific reverse proxy. Also use when the user asks to switch or compare reverse proxies for an existing self-host guide, wants a PDF/document version of a deployment walkthrough, or references "the OpenCloud-style guide", "the AstraDraw-style guide", or a similarly formatted installation document. Trigger even if the user only names the app and says something like "give me a self-host guide for Immich" or "how do I deploy Paperless-ngx with HTTPS" — reverse proxy choice can be asked or defaulted.
----
-
 # Self-Host Installation Guide Generator
 
 Produces a formal, non-technical-user-friendly, step-by-step self-hosting installation guide for any application, matching an established house style (title metadata table, numbered sections, copy-paste command blocks, NOTE/IMPORTANT callouts, troubleshooting table, installation summary checklist). The reverse proxy layer — Nginx, Caddy, or Traefik — is swappable per user requirement without changing anything else in the guide.
